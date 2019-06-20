@@ -12,6 +12,7 @@ function Tempature() {
                 <span>Colder</span>
                 <span>You're frozen!</span>
             </div>
+            <span className="HowClose">...how close you are.</span>
         </div>
     );
 }

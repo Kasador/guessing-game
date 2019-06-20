@@ -9,12 +9,14 @@ function Guess() {
     return (
         <div className="Guess">
             <Nav />
-            <div className="RightLeft">
-                <div className="LeftSide">
-                    <Computer />
-                    <Input />
+            <div className="GuessWrapper">
+                <div className="RightLeft">
+                    <div className="LeftSide">
+                        <Computer />
+                        <Input />
+                    </div>
+                    <Tempature />
                 </div>
-                <Tempature />
             </div>
         </div>
     );
