@@ -6,7 +6,7 @@ function Nav() {
         <>
             <nav className="Nav">
                 <h1 className="NavTitle">Guessing Game</h1>
-                <h3 className="NumGuess"># of Guesses: 0</h3>
+                <h3 className="NumGuess">Total Guesses: 0</h3>
             </nav>
         </>
     );

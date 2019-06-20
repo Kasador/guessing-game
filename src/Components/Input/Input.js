@@ -5,11 +5,11 @@ function Input() {
     return (
         <div className="Input">
             <form className="Form">
-                <h3 class="EnterNumText">enter your number...</h3>
                 <div className="Enter">
                     <input type="number" className="InputBox" />
-                    <button className="InputBtn">Enter</button>
+                    <button className="InputBtn">enter</button>
                 </div>
+                <h3 class="EnterNumText">...enter your guess.</h3>
             </form>
         </div>
     );

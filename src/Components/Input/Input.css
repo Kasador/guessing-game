@@ -7,8 +7,11 @@
     padding: 5px 10px;
     font-size: 1.5rem;
     margin: 5px;
+    width: 100px;
     border-radius: 10px;
-    border: 2px solid salmon;
+    border: 2px solid #444;
+    background-color: lightgoldenrodyellow;
+    color: #444;
 }
 .InputBox:focus {
     outline: none;
@@ -18,15 +21,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.EnterNumText {
-    color: gray;
-}
-.InputBtn {
-    font-size: 1.3rem;
-    padding: 5px 10px;
+    margin: 30px;
     border-radius: 10px;
     border: 2px solid salmon;
+    background-color: salmon;
+    padding: 10px;
+    box-shadow: #444 2px 2px 2px;
+}
+.EnterNumText {
+    color: #444;
+    font-size: 14px;
+    transform: translateX(20px);
+}
+.InputBtn {
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    background-color: lightgoldenrodyellow;
+    color: #444;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+.InputBtn:hover {
+    background-color: #FCFCE8;
 }
 .InputBtn:focus {
     outline: none;
