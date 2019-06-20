@@ -1,0 +1,38 @@
+
+.Input {
+    display: flex;
+    justify-content: center;
+}
+.InputBox {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid salmon;
+}
+.InputBox:focus {
+    outline: none;
+}
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.EnterNumText {
+    color: gray;
+}
+.InputBtn {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid salmon;
+}
+.InputBtn:focus {
+    outline: none;
+}
+.Enter  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

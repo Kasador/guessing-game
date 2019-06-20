@@ -1,0 +1,13 @@
+.Nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.NavTitle {
+    font-size: 3rem;
+    color: salmon;
+}
+.NumGuess {
+    color: gray;
+}
