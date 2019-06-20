@@ -26,6 +26,10 @@
     border: 2px solid salmon;
     background-color: salmon;
     padding: 10px;
+
+    transition: all 0.2s;
+}
+.Form:hover {
     box-shadow: #444 2px 2px 2px;
 }
 .EnterNumText {
@@ -38,14 +42,17 @@
     padding: 5px 10px;
     border-radius: 10px;
     border: 2px solid #444;
-    background-color: lightgoldenrodyellow;
-    color: #444;
+    background-color: #444;
+    color: lightgoldenrodyellow;
     cursor: pointer;
 
     transition: all 0.2s;
 }
 .InputBtn:hover {
-    background-color: #FCFCE8;
+    background-color: #222;
+    border-color: #222;
+    color: #FCFCE8;
+    box-shadow: #444 2px 2px 2px;
 }
 .InputBtn:focus {
     outline: none;

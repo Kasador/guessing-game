@@ -1,0 +1,38 @@
+.Computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.GuessBox {
+    background-color: salmon;
+    padding: 25px 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+    transition: all 0.2s;
+}
+.GuessBox:hover {
+    box-shadow: #222 2px 2px 2px;
+}
+.GuessBox span {
+    font-size: 3.5rem;
+    padding: 5px 30px;
+    border: 2px solid #444;
+    color: lightgoldenrodyellow;
+    background-color: #444;
+    border-radius: 1000px;
+    font-weight: 900;
+    transform: translateY(-25px);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.ComputerGuested {
+    position: absolute;
+    transform: translate(35px, 38px);
+    color: #444;
+    font-size: 0.85rem;
+    font-weight: 900;
+}
